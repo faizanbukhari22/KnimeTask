@@ -1,5 +1,17 @@
 # KnimeTask
 
+## Folder Structure
+```
+knimetask
+|─── drivers
+|    └── chrome driver
+|    └── geckodriver (Firefox)
+|─── Reports
+|─── requirementx.txt
+|─── test1.py
+└─── test2.py
+```
+
 ## Prerequisites
 
 - IDE to run the python code recommended (pycharm)
@@ -24,9 +36,9 @@ Link to install python is given below I have specifically used 3.9.9 to create t
 
 All the python libraries required to run this test scripts are 
 mentioned in the requirementx.txt file. To install all of them run following command on terminal or cmd
-
+```python
          pip install requirementx.txt
-
+```
 ### Google Chrome
 
 Chrome can be installed from the link given below. <strong>chrome webdriver included in repository</strong>
