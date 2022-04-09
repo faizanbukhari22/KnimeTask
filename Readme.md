@@ -2,11 +2,7 @@
 
 ## Prerequisites
 
-- IDE for python
-
-- python                          3.10.2
-
-- selenium                        4.1.3
+- IDE to run the python code recommended (pycharm)
 
 - Google Chrome browser
 
