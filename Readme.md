@@ -1,12 +1,15 @@
 # KnimeTask
-
+here is my task submission details
 ## Folder Structure
 ```
 knimetask
 |─── drivers
-|    └── chrome driver
+|    └── chromedriver
 |    └── geckodriver (Firefox)
 |─── Reports
+|    └── Bug report
+|    └── Test Cases
+|    └── screenshot
 |─── requirementx.txt
 |─── test1.py
 └─── test2.py
