@@ -1,0 +1,21 @@
+1649106959210	geckodriver	INFO	Listening on 127.0.0.1:55007
+1649106959357	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "55008" "-foreground" "-no-remote" "-profile" "/var/folders/yh/xlwhp7pn65xdjhjckds4cp9w0000gn/T/rust_mozprofilebRgiuP"
+1649106960181	Marionette	INFO	Marionette enabled
+2022-04-04 23:16:01.029 firefox-bin[11140:754275] Warning: Expected min height of view: (<NSButton: 0x131359c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-04-04 23:16:01.030 firefox-bin[11140:754275] Warning: Expected min height of view: (<NSButton: 0x1315ba000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-04-04 23:16:01.030 firefox-bin[11140:754275] Warning: Expected min height of view: (<NSButton: 0x1315b8800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-04-04 23:16:01.030 firefox-bin[11140:754275] Warning: Expected min height of view: (<NSButton: 0x1315bec00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-04-04 23:16:01.031 firefox-bin[11140:754275] Warning: Expected min height of view: (<NSButton: 0x1315bb800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-04-04 23:16:01.031 firefox-bin[11140:754275] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1315bf800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-04-04 23:16:01.031 firefox-bin[11140:754275] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x116d52800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/yh/xlwhp7pn65xdjhjckds4cp9w0000gn/T/rust_mozprofilebRgiuP/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:55008/devtools/browser/1288b3b2-5681-4297-9c86-5291f2511372
+1649106961891	Marionette	INFO	Listening on port 55013
+1649106961968	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649107198580	Marionette	INFO	Stopped listening on port 55013
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
